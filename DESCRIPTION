@@ -1,0 +1,15 @@
+Package: datapkg
+Title: Datasets Galore!
+Version: 0.5.0
+Authors@R: c(
+    person("James", "Balamuta", , "balamut2@illinois.edu", c("aut", "cph")),
+    person("Stephane", "Guerrier", , "stephane@illinois.edu", c("ctb","cre","cph")),
+    person("Roberto", "Molinari", , "roberto.molinari@unige.ch", c("ctb", "cph"))
+    )
+Description: Holds various datasets used within the `SMAC-Group`'s packages.
+Depends:
+    R (>= 3.2.4)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1

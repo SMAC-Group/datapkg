@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/datapkg)](https://cran.r-project.org/package=datapkg) | [![Travis-CI Build Status](https://travis-ci.org/SMAC-Group/datapkg.svg?branch=master)](https://travis-ci.org/SMAC-Group/datapkg)
+
+# `datapkg` 
+
+The repository holds a generic data package that contains various examples. 
+
+
+Installing the package through GitHub (Developmental)
+-----------------------------------------------------
+
+Depending on your operating system, you may need to install the following components:
+
+**Linux**
+
+Both curl and libxml are required.
+
+For **Debian** systems, enter the following in terminal:
+
+``` bash
+sudo apt-get install curl libcurl3 libcurl3-dev libxml2 libxml2-dev
+```
+
+For **RHEL** systems, enter the following in terminal:
+
+``` bash
+sudo yum install curl curl-devel libxml2 libxml2-dev
+```
+
+**All Systems**
+
+With the system dependency taken care of, we continue on by installing the R specific package dependencies and finally the package itself by doing the following in an R session:
+
+``` r
+# Install dependencies
+install.packages("devtools")
+
+# Install the package from github
+devtools::install_github("SMAC-Group/datapkg")
+```
+
