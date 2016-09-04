@@ -4,12 +4,16 @@
 \name{hydro}
 \alias{hydro}
 \title{hydro}
-\format{Time series with frequency 12 starting at 1907 and going to 1972 for total of 781 observations.}
+\format{Time series with frequency 12 starting at 1907 and going to 1972
+for total of 781 observations.
+
+For further details, see \url{https://datamarket.com/data/set/22w1/mean-monthly-precipitation-1907-1972}}
 \usage{
 hydro
 }
 \description{
-Hydrology data that indicates a robust approach may be preferred to a classical approach when estimating time series.
+Hydrology data that indicates a robust approach may be preferred to a
+classical approach when estimating time series.
 }
 \keyword{datasets}
 
