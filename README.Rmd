@@ -12,12 +12,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/datapkg)](https://cran.r-project.org/package=datapkg) | [![Travis-CI Build Status](https://travis-ci.org/SMAC-Group/datapkg.svg?branch=master)](https://travis-ci.org/SMAC-Group/datapkg)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/smacdata)](https://cran.r-project.org/package=smacdata) | [![Travis-CI Build Status](https://travis-ci.org/SMAC-Group/smacdata.svg?branch=master)](https://travis-ci.org/SMAC-Group/smacdata)
 
-# `datapkg` 
+# SMAC Data (`smacdata`)
 
-The repository holds a generic data package that contains various examples. 
-
+The repository holds a generic data package that contains various example data
+sets used within different [SMAC-Group](https://github.com/SMAC-Group) R
+packages and talks.
 
 Installing the package through GitHub (Developmental)
 -----------------------------------------------------
@@ -49,6 +50,6 @@ With the system dependency taken care of, we continue on by installing the R spe
 install.packages("devtools")
 
 # Install the package from github
-devtools::install_github("SMAC-Group/datapkg")
+devtools::install_github("SMAC-Group/smacdata")
 ```
 
